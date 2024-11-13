@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+          
+            border:solid 5px black;
+            /*  ese hum responsive layout bna pa rahe hai
+        inspect kr ke dekho hr device pr apply kr ke */
+            display: flex;
+            flex-direction: row;
+            flex-wrap:wrap-reverse;
+
+            
+
+        } 
+        /* display:innline-block se hum responsive layout nhi bna pa rahe hai
+        inspect kr ke dekho hr device pr apply kr ke */
+        #div1{
+            width:200px;
+            height:200px;
+            background-color:blueviolet;
+            /* display:inline-block; */
+
+        }
+        #div2{
+            width:200px;
+            height:200px;
+            background-color:rgb(226, 43, 162);
+            /* display:inline-block; */
+
+        }
+        #div3{
+            width:200px;
+            height:200px;
+            background-color:blue;
+            /* display:inline-block; */
+
+        }
+        #div4{
+            width:200px;
+            height:200px;
+            background-color:green;
+            /* display:inline-block; */
+
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="class" id="div1"></div>
+    <div class="class" id="div2"></div>
+    <div class="class" id="div3"></div>
+    <div class="class" id="div4"></div>
+</div>
+</body>
+</html>

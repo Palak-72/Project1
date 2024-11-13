@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin:0px;
+            box-sizing: border-box;
+        }
+        .container{
+            border:5px solid black;
+            margin:15px;
+            padding: 10px;
+            position:relative;
+            height:1000px;
+        }
+        div{
+            margin:5px;
+        }
+       
+     #div1{
+        background-color: aqua;
+        width:200px;
+        height: 200px;
+        display:inline-block;
+
+     }
+     #div2{
+        background-color:blue;
+        width:200px;
+        height: 200px;
+        display:inline-block;
+        /* Relative position ka use kr ke elment ko left right top bottom kahi pr le ja skte hai pr es element ka space nhi gayb hoga */
+        /* position:relative;
+        top:100px;
+        left:50px; */
+        /* overlapping ke liye hum absolute position ka use krte hai */
+         /* to sbhi div ka position relative krte fir jis div
+         ko absoulate krna hai kr skte hai*/
+         position: absolute;
+         top:100px;
+     }
+     #div3{
+        background-color:chartreuse;
+        width:200px;
+        height: 200px;
+        display:inline-block;
+     }
+     #div4{
+        background-color:deeppink;
+        width:200px;
+        height: 200px;
+        display:inline-block;
+        position:fixed;
+     }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="div1">
+
+        </div>
+        <div id="div2">
+            
+        </div>
+        <div id="div3">
+            
+        </div>
+        <div id="div4">
+            
+        </div>
+    </div>
+</body>
+</html>

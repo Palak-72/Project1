@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     .div{
+        display:flex;
+        flex-direction:row;
+        border:2px black solid;
+     }
+     #div1{
+        height:250px;
+        width:250px;
+        background-color:blueviolet;
+     }
+     #div2{
+        height:250px;
+        width:250px;
+        background-color:darkmagenta;
+     }
+     #div3{
+        height:250px;
+        width:250px;
+        background-color:lawngreen;
+     }
+     #div4{
+        height:250px;
+        width:250px;
+        background-color:rgb(0, 56, 139);
+     }
+     #div5{
+        height:250px;
+        width:250px;
+        background-color:rgb(252, 168, 0);
+     }
+     @media (max-width:500px){
+        .div{
+            flex-direction:column;
+            background-color:salmon;
+           
+        }
+     }
+    </style>
+</head>
+<body>
+    <div class="div">
+        <div id="div1"></div>
+        <div id="div2"></div>
+        <div id="div3"></div>
+        <div id="div4"></div>
+        <div id="div5"></div>
+    </div>
+</body>
+</html>

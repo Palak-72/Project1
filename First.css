@@ -1,0 +1,33 @@
+/* h1{
+    text-align: center;
+    font-size:50px;
+} */
+
+/* selector  */
+#p1 {
+  color:chartreuse;
+}
+.firstclass{
+    color:cyan;
+}
+/* group selector */
+h2,article{
+    color:violet;
+}
+p{
+    /* font-style:italic; */
+    font-size:20px;
+    font-family:cursive;
+    /* color aur gahra ho jaye gya */
+    font-weight:900;
+    
+
+}
+artical{
+    font-style:italic;
+    line-height:500px;
+}
+/* gap between two paragrpha */
+#para{
+    line-height:90px;
+}

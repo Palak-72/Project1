@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding:0px;
+            margin:0px;
+        }
+        h1{
+            
+            
+            border-style: solid;
+            border-color:chartreuse;
+            border-top:5px;
+            border-left:0px;
+            border-right:0px;
+            margin:50px;
+            text-align:center;
+            
+        }
+        p{
+            font-size:30px;
+            font-family:sans-serif;
+            width:650px;
+            height:250px;
+            background-color:yellow;
+            color:blue;
+            padding:40px;
+            margin:80px;
+        }
+        
+        /* without border-sizing:border-box; nhi legane pr margin ,padding,border ka value add ho 
+        jata jise ki box ki size jada ho jata hai */
+        #div1{
+            font-size:30px;
+            font-family:sans-serif;
+            width:200px;
+            height:200px;
+            background-color:green;
+            color:black;
+            padding:40px 20px;
+            display:inline-block;
+            margin:40px;
+
+        }
+        #div2{
+            font-size:30px;
+            font-family:sans-serif;
+            width:200px;
+            height:200px;
+            background-color:brown;
+            color:black;
+            padding:60px 60px 30px 10px;
+            display:inline-block;
+            margin:80px 40px 50px 80px;
+        }
+       #div3
+       {
+        font-size:30px;
+            font-family:sans-serif;
+            width:200px;
+            height:200px;
+            background-color: yellow;
+            display:inline-block;
+            border-radius: 50%;
+            text-align: center;
+           
+       }
+       #div4{
+        /* box-sizing s yaadi border,margin ,padding dene pr box me value nhi add hota hai */
+            box-sizing: border-box;
+            font-size:30px;
+            font-family:sans-serif;
+            width:200px;
+            height:200px;
+            background-color:green;
+            color:black;
+            padding:40px 20px;
+            /* display:inline-block; */
+            margin:40px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>My Second Project</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum maxime magni error nemo fugiat, repellendus tempore consequatur optio molestias repudiandae itaque sapiente porro, voluptatum, harum dolores sit corporis illum
+         excepturi totam recusandae doloremque! Corrupti in amet excepturi nulla architecto fugit!</p>
+         <h1>without use border-sizing</h1>
+    <div id="div1">
+         hello world 
+    </div>
+
+    <div id="div2">
+        hello duniya
+    </div>
+
+    <div id="div3">
+        hello duniya
+    </div>
+    <h2>use border-sizing</h2>
+    <div id="div4">
+        hello duniya
+    </div>
+    </body>
+</html>
